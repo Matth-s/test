@@ -1,0 +1,10 @@
+.feedback-card-container {
+  height: 151px;
+  background-color: #ffffff;
+  padding: 28px 32px;
+  cursor: pointer;
+}
+
+.feedback-card-container:not(:last-child) {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,20 @@
+.login-user-form {
+  width: 400px;
+
+  form {
+    padding: 24px 34px;
+  }
+
+  input:not(input[type='submit']) {
+    width: 100%;
+  }
+
+  input[type='submit'] {
+    margin: auto;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 15px;
+  }
+}

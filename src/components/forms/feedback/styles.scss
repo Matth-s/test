@@ -1,0 +1,37 @@
+.feedback-form-container {
+  margin: 92px auto 0;
+  width: 540px;
+
+  .go-back-button {
+    margin-bottom: 68px;
+  }
+
+  .form-content {
+    position: relative;
+    padding: 52px 42px 40px;
+    background-color: #ffffff;
+  }
+
+  .icon-form {
+    position: absolute;
+    left: 42px;
+    top: -28px;
+
+    width: 56px;
+    height: 58px;
+    border-radius: 100%;
+  }
+
+  h1 {
+    margin-bottom: 75px;
+  }
+
+  textarea {
+    height: 96px;
+  }
+
+  .div-right-part-button {
+    gap: 16px;
+    margin-left: auto;
+  }
+}

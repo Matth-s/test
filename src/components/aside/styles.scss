@@ -1,0 +1,33 @@
+.aside-container {
+  width: 255px;
+  height: min-content;
+  border: 1px solid blue;
+
+  .front-end-div {
+    height: 137px;
+    background-color: red;
+  }
+
+  .categories-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 8px;
+    padding: 24px;
+  }
+
+  li {
+    width: fit-content;
+    padding: 0 16px;
+    cursor: pointer;
+    background-color: grey;
+    color: blue;
+
+    &__active {
+      background-color: blue;
+      color: grey;
+    }
+  }
+
+  .roadmap-div {
+  }
+}

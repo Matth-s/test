@@ -1,0 +1,109 @@
+body {
+  background-color: #f7f8fd;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+select,
+textarea {
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 5px;
+  background-color: #f7f8fd;
+  border: none;
+
+  &:focus {
+    border: 1px solid #4661e6;
+  }
+}
+
+textarea {
+  padding: 16px 24px;
+}
+
+input[type='submit'],
+button {
+  display: block;
+  height: 44px;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0 24px;
+  border: transparent;
+  color: #f2f4fe;
+}
+
+.flex {
+  display: flex;
+
+  &__alignCenter {
+    align-items: center;
+  }
+}
+
+.purple {
+  background: #ad1fea;
+
+  &:hover {
+    background: #c75af6;
+  }
+}
+
+.blue {
+  background-color: #3a4374;
+
+  &:hover {
+    background-color: #656ea3;
+  }
+}
+
+.red {
+  background-color: #d73737;
+
+  &:hover {
+    background-color: #e98888;
+  }
+}
+
+.form-div {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  :not(input[type='submit']) {
+    width: 100%;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .sub-label {
+    margin-bottom: 15px;
+  }
+
+  &__error {
+    .error-message {
+      margin-top: 5px;
+      color: #d73737;
+    }
+
+    input,
+    select {
+      border: 1px solid #d73737;
+    }
+  }
+}
+
+.form-div:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.radius-10 {
+  border-radius: 10px;
+}
+
+form {
+  background-color: #ffffff;
+}

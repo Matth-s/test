@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  gap: 30px;
+
+  .header-feedbacks-container {
+    height: 72px;
+    padding: 0 16px 0 24px;
+    margin-bottom: 24px;
+  }
+
+  .right-content {
+    width: 730px;
+  }
+}
